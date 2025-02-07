@@ -42,6 +42,11 @@ const screen = {
                                               <h2>Eventos</h2> 
                                               <ul>${eventsItens}</ul>
                                             </div>`
+        } else {
+            this.userProfile.innerHTML += `<div class="events section"> 
+                                              <h2>Eventos</h2> 
+                                              <ul><h3>Este usuário não possui eventos</h3></ul>
+                                            </div>`
         }
 
     },
